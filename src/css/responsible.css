@@ -1,0 +1,154 @@
+@media (max-width: 768px){
+    html{
+    overflow: hidden;
+    }
+
+    body{
+        overflow: hidden;
+        background: url(../images/bg-mobile.svg) center center / cover no-repeat;
+        background-color: var(--primary-dark);
+    }
+
+    header{
+        padding: 0;
+        margin: 0;
+        width: 75%;
+    }
+
+    header img{
+        width: 50%;
+    }
+
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main img{
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    main .info .title{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        width: 280px;
+        
+    }
+
+    main .info .paragraph{
+        text-align: center;
+        font-size: 16px;
+        width: 330px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    main .info button{
+        width: 250px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    footer{
+        padding: 30px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    
+        body{
+            overflow: hidden;
+            background: url(../images/bg-mobile.svg) center center / cover no-repeat;
+            background-color: var(--primary-dark);
+        }
+        
+        header{
+            margin: 0 0 0 90px;
+        }
+
+        header img{
+            width: 40%;
+        }
+
+        main{
+            align-items: center;
+            flex-direction: column;
+        }
+
+        main img{
+            width: 70%;
+        }
+
+        main .info{
+            align-items: center;
+            gap: 20px;
+        }
+
+        main .info .title{
+            text-align: center;
+            font-size: 26px;
+            width: 300px;
+            line-height: 35px;
+        }
+
+        main .info .paragraph{
+            text-align: center;
+            font-size: 18px;
+        }
+
+        main .info button{
+            width: 250px;
+        }
+
+        footer nav ul{
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+}
+
+@media (min-width: 993px) and  (max-width: 1200px){
+    
+    header img{
+        margin-left: 15px;
+    }
+
+    main img{
+        width: 50%;
+        margin-left: 25px;
+    }
+
+    main .info .paragraph{
+        font-size: 16px;
+    }
+
+    main .info .title{
+        font-size: 30px;
+        width: 400px;
+        line-height: 35px;
+    }
+
+    footer nav ul{
+        padding-right: 10px;
+    }
+}
+    
